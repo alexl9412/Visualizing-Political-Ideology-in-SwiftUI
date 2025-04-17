@@ -4,7 +4,7 @@ Swift code for fetching, decoding, and displaying DW-NOMINATE data in SwiftUI. I
 - a service class and endpoint protocol for constructing URLs and handling multiple API calls
 - a data model and SwiftUI chart showing how the ideologies of the major U.S. political parties have changed over time
 
-Discussed in a 3-part blog post series on ![beinformed.app/blog](https://beinformed.app/blog):
+Discussed in a 3-part blog post series on [beinformed.app/blog](https://beinformed.app/blog):
 - Part 1: [Creating a generic network manager in Swift](https://beinformed.app/blog/swift-network-api-calls)
 - Part 2: [Managing URL construction for APIs in Swift](https://beinformed.app/blog/url-construction-network-api-swift)
 - Part 3: [Building a SwiftUI chart with DW-NOMINATE data](https://beinformed.app/blog/congress-political-ideology-swiftui-chart-ios)
