@@ -5,9 +5,9 @@ Swift code for fetching, decoding, and displaying DW-NOMINATE data in SwiftUI. I
 - a data model and SwiftUI chart showing how the ideologies of the major U.S. political parties have changed over time
 
 Discussed in a 3-part blog post series on ![beinformed.app/blog](beinformed.app/blog):
-- Part 1:
-- Part 2:
-- Part 3:
+- Part 1: ![Creating a generic network manager in Swift](beinformed.app/blog/swift-network-api-calls)
+- Part 2: ![Managing URL construction for APIs in Swift](beinformed.app/blog/url-construction-network-api-swift)
+- Part 3: ![Building a SwiftUI chart with DW-NOMINATE data](beinformed.app/blog/congress-political-ideology-swiftui-chart-ios)
 
 ## What is DW-NOMINATE?
 DW-NOMINATE (dynamic weighted nominal three-step estimation) is a statistical method used to estimate the ideological positions of legislators based on their roll-call voting records. Developed by Keith T. Poole and Howard Rosenthal in the 1980s, it places each legislator on a two-dimensional ideological scale, with the first dimension representing the traditional liberal-conservative economic spectrum (from -1 for most liberal to 1 for most conservative), and the second dimension capturing differences in social and cultural issues, such as slavery, currency policy, immigration, civil rights, and abortion. Since about 2000, the second dimension has become less significant to the point where “almost every issue is voted along ‘liberal-conservative’ lines.” (The chart above only uses the first dimension.)
