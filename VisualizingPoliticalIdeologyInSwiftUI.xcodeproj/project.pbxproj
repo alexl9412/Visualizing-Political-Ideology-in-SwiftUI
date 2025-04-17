@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DDE84412DB130F400BB223F /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDE84402DB130F400BB223F /* CodableCSV */; };
+		5DDE84442DB1310000BB223F /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDE84432DB1310000BB223F /* XMLCoder */; };
+		5DDE84812DB146E300BB223F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDE84712DB146E300BB223F /* Preview Assets.xcassets */; };
+		5DDE84822DB146E300BB223F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDE847B2DB146E300BB223F /* Assets.xcassets */; };
+		5DDE84832DB146E300BB223F /* DWNominateScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE846B2DB146E300BB223F /* DWNominateScore.swift */; };
+		5DDE84842DB146E300BB223F /* DateDecodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE846D2DB146E300BB223F /* DateDecodingStrategy.swift */; };
+		5DDE84852DB146E300BB223F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE846E2DB146E300BB223F /* NetworkError.swift */; };
+		5DDE84862DB146E300BB223F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE846F2DB146E300BB223F /* NetworkManager.swift */; };
+		5DDE84872DB146E300BB223F /* ChartFootnote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84732DB146E300BB223F /* ChartFootnote.swift */; };
+		5DDE84882DB146E300BB223F /* ChartSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84742DB146E300BB223F /* ChartSources.swift */; };
+		5DDE84892DB146E300BB223F /* ChartTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84752DB146E300BB223F /* ChartTitle.swift */; };
+		5DDE848A2DB146E300BB223F /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84762DB146E300BB223F /* ChartView.swift */; };
+		5DDE848B2DB146E300BB223F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84772DB146E300BB223F /* ContentView.swift */; };
+		5DDE848C2DB146E300BB223F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84782DB146E300BB223F /* ListView.swift */; };
+		5DDE848D2DB146E300BB223F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE847A2DB146E300BB223F /* AppState.swift */; };
+		5DDE848E2DB146E300BB223F /* Congress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE847C2DB146E300BB223F /* Congress.swift */; };
+		5DDE848F2DB146E300BB223F /* DWNominateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE847D2DB146E300BB223F /* DWNominateService.swift */; };
+		5DDE84902DB146E300BB223F /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE847E2DB146E300BB223F /* Endpoint.swift */; };
+		5DDE84912DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE847F2DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUIApp.swift */; };
+		5DDE84942DB148D200BB223F /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84922DB1484D00BB223F /* ChartData.swift */; };
+		5DDE84952DB148E500BB223F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE84932DB1486300BB223F /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DDE84112DB1308800BB223F /* VisualizingPoliticalIdeologyInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualizingPoliticalIdeologyInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDE846B2DB146E300BB223F /* DWNominateScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWNominateScore.swift; sourceTree = "<group>"; };
+		5DDE846D2DB146E300BB223F /* DateDecodingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDecodingStrategy.swift; sourceTree = "<group>"; };
+		5DDE846E2DB146E300BB223F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5DDE846F2DB146E300BB223F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5DDE84712DB146E300BB223F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DDE84732DB146E300BB223F /* ChartFootnote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFootnote.swift; sourceTree = "<group>"; };
+		5DDE84742DB146E300BB223F /* ChartSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSources.swift; sourceTree = "<group>"; };
+		5DDE84752DB146E300BB223F /* ChartTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTitle.swift; sourceTree = "<group>"; };
+		5DDE84762DB146E300BB223F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5DDE84772DB146E300BB223F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DDE84782DB146E300BB223F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5DDE847A2DB146E300BB223F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5DDE847B2DB146E300BB223F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DDE847C2DB146E300BB223F /* Congress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congress.swift; sourceTree = "<group>"; };
+		5DDE847D2DB146E300BB223F /* DWNominateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWNominateService.swift; sourceTree = "<group>"; };
+		5DDE847E2DB146E300BB223F /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		5DDE847F2DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizingPoliticalIdeologyInSwiftUIApp.swift; sourceTree = "<group>"; };
+		5DDE84922DB1484D00BB223F /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		5DDE84932DB1486300BB223F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DDE840E2DB1308800BB223F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDE84442DB1310000BB223F /* XMLCoder in Frameworks */,
+				5DDE84412DB130F400BB223F /* CodableCSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DDE84082DB1308800BB223F = {
+			isa = PBXGroup;
+			children = (
+				5DDE84122DB1308800BB223F /* Products */,
+				5DDE84802DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUI */,
+			);
+			sourceTree = "<group>";
+		};
+		5DDE84122DB1308800BB223F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE84112DB1308800BB223F /* VisualizingPoliticalIdeologyInSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDE846C2DB146E300BB223F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE846B2DB146E300BB223F /* DWNominateScore.swift */,
+				5DDE84922DB1484D00BB223F /* ChartData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DDE84702DB146E300BB223F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE846D2DB146E300BB223F /* DateDecodingStrategy.swift */,
+				5DDE846E2DB146E300BB223F /* NetworkError.swift */,
+				5DDE846F2DB146E300BB223F /* NetworkManager.swift */,
+				5DDE847D2DB146E300BB223F /* DWNominateService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5DDE84722DB146E300BB223F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE84712DB146E300BB223F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DDE84792DB146E300BB223F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE84772DB146E300BB223F /* ContentView.swift */,
+				5DDE84782DB146E300BB223F /* ListView.swift */,
+				5DDE84762DB146E300BB223F /* ChartView.swift */,
+				5DDE84752DB146E300BB223F /* ChartTitle.swift */,
+				5DDE84732DB146E300BB223F /* ChartFootnote.swift */,
+				5DDE84742DB146E300BB223F /* ChartSources.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DDE84802DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE847F2DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUIApp.swift */,
+				5DDE84792DB146E300BB223F /* Views */,
+				5DDE846C2DB146E300BB223F /* Model */,
+				5DDE84702DB146E300BB223F /* Networking */,
+				5DDE847A2DB146E300BB223F /* AppState.swift */,
+				5DDE84932DB1486300BB223F /* Extensions.swift */,
+				5DDE847C2DB146E300BB223F /* Congress.swift */,
+				5DDE847E2DB146E300BB223F /* Endpoint.swift */,
+				5DDE84722DB146E300BB223F /* Preview Content */,
+				5DDE847B2DB146E300BB223F /* Assets.xcassets */,
+			);
+			path = VisualizingPoliticalIdeologyInSwiftUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DDE84102DB1308800BB223F /* VisualizingPoliticalIdeologyInSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDE841F2DB1308900BB223F /* Build configuration list for PBXNativeTarget "VisualizingPoliticalIdeologyInSwiftUI" */;
+			buildPhases = (
+				5DDE840D2DB1308800BB223F /* Sources */,
+				5DDE840E2DB1308800BB223F /* Frameworks */,
+				5DDE840F2DB1308800BB223F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualizingPoliticalIdeologyInSwiftUI;
+			packageProductDependencies = (
+				5DDE84402DB130F400BB223F /* CodableCSV */,
+				5DDE84432DB1310000BB223F /* XMLCoder */,
+			);
+			productName = VisualizingPoliticalIdeologyInSwiftUI;
+			productReference = 5DDE84112DB1308800BB223F /* VisualizingPoliticalIdeologyInSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DDE84092DB1308800BB223F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5DDE84102DB1308800BB223F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 5DDE840C2DB1308800BB223F /* Build configuration list for PBXProject "VisualizingPoliticalIdeologyInSwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DDE84082DB1308800BB223F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5DDE843F2DB130F400BB223F /* XCRemoteSwiftPackageReference "CodableCSV" */,
+				5DDE84422DB1310000BB223F /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5DDE84122DB1308800BB223F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DDE84102DB1308800BB223F /* VisualizingPoliticalIdeologyInSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DDE840F2DB1308800BB223F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDE84812DB146E300BB223F /* Preview Assets.xcassets in Resources */,
+				5DDE84822DB146E300BB223F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DDE840D2DB1308800BB223F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDE84832DB146E300BB223F /* DWNominateScore.swift in Sources */,
+				5DDE84842DB146E300BB223F /* DateDecodingStrategy.swift in Sources */,
+				5DDE84852DB146E300BB223F /* NetworkError.swift in Sources */,
+				5DDE84862DB146E300BB223F /* NetworkManager.swift in Sources */,
+				5DDE84872DB146E300BB223F /* ChartFootnote.swift in Sources */,
+				5DDE84882DB146E300BB223F /* ChartSources.swift in Sources */,
+				5DDE84942DB148D200BB223F /* ChartData.swift in Sources */,
+				5DDE84892DB146E300BB223F /* ChartTitle.swift in Sources */,
+				5DDE848A2DB146E300BB223F /* ChartView.swift in Sources */,
+				5DDE848B2DB146E300BB223F /* ContentView.swift in Sources */,
+				5DDE848C2DB146E300BB223F /* ListView.swift in Sources */,
+				5DDE848D2DB146E300BB223F /* AppState.swift in Sources */,
+				5DDE848E2DB146E300BB223F /* Congress.swift in Sources */,
+				5DDE848F2DB146E300BB223F /* DWNominateService.swift in Sources */,
+				5DDE84952DB148E500BB223F /* Extensions.swift in Sources */,
+				5DDE84902DB146E300BB223F /* Endpoint.swift in Sources */,
+				5DDE84912DB146E300BB223F /* VisualizingPoliticalIdeologyInSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DDE841D2DB1308900BB223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DDE841E2DB1308900BB223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DDE84202DB1308900BB223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisualizingPoliticalIdeologyInSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 938DSWTUTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexlenkei.VisualizingPoliticalIdeologyInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DDE84212DB1308900BB223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisualizingPoliticalIdeologyInSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 938DSWTUTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexlenkei.VisualizingPoliticalIdeologyInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DDE840C2DB1308800BB223F /* Build configuration list for PBXProject "VisualizingPoliticalIdeologyInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDE841D2DB1308900BB223F /* Debug */,
+				5DDE841E2DB1308900BB223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDE841F2DB1308900BB223F /* Build configuration list for PBXNativeTarget "VisualizingPoliticalIdeologyInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDE84202DB1308900BB223F /* Debug */,
+				5DDE84212DB1308900BB223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DDE843F2DB130F400BB223F /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+		5DDE84422DB1310000BB223F /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DDE84402DB130F400BB223F /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDE843F2DB130F400BB223F /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+		5DDE84432DB1310000BB223F /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDE84422DB1310000BB223F /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DDE84092DB1308800BB223F /* Project object */;
+}
