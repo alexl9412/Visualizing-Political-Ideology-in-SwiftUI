@@ -14,7 +14,7 @@ DW-NOMINATE (dynamic weighted nominal three-step estimation) is a statistical me
 
 DW-NOMINATE scores are designed to be comparable across different Congresses, allowing researchers to show the ideological positions of individual legislators, parties, and the entire Congress have evolved. The method has become a widely used tool in political science research to quantify polarization and study voting patterns in Congress and is often cited by leading news organizations to measure the ideology of major political figures.
 
-DW-NOMINATE data is sourced from ![Voteview](https://voteview.com/parties/all) and cited below:
+DW-NOMINATE data is sourced from https://voteview.com/parties/all and cited below:
 -  Lewis, Jeffrey B., Keith Poole, Howard Rosenthal, Adam Boche, Aaron Rudkin, and Luke Sonnet (2025). Voteview: Congressional Roll-Call Votes Database. https://voteview.com/ 
 
 ![DW-NOMINATE chart in SwiftUI](https://github.com/alexl9412/Visualizing-Political-Ideology-in-SwiftUI/blob/101a732cd1103277874cf55f709c1c999c939525/DW-NOMINATE%20SwiftUI%20Chart.png)
